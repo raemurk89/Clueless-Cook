@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    <link rel="stylesheet" href="global-styling.css">-->
+    <link rel="stylesheet" href="../CSS/Home-Styling.css">
+    <title>Title</title>
+</head>
+<body>
+
+<!--Navigatiebalk met home, recipe index, contact en search button-->
+<nav>
+    <ul id="navbar-top">
+        <li id="home"><a href="#home">Home</a></li>
+        <li id="all-recipes"><a href="./All-Recipes.html">All Recipes</a>
+        </li>
+        <li id="cook-today"><a href="./Cooking-Videos.html">Cooking Videos</a>
+        </li>
+        <li id="contact"><a href="#footer-contact">Contact</a></li>
+
+
+    </ul>
+    <input id="search-tool" type="search" placeholder="">
+    <label for="search-tool"></label>
+</nav>
+
+<!--Header met website name-->
+
+<h1 class="title-of-page">The Clueless Cook</h1>
+
+
+<!--Slideshow met recepten-->
+
+<div id="slideshow-container">
+    <div class="mySlides">
+        <img class="slideshow-image"
+             src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80"
+             style="width:100%" alt="">
+    </div>
+
+    <div class="mySlides">
+        <img class="slideshow-image"
+             src="https://images.unsplash.com/photo-1516295615676-7ae4303c1c63?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80"
+             style="width:100%" alt="">
+    </div>
+
+    <div class="mySlides">
+        <img class="slideshow-image"
+             src="https://images.unsplash.com/photo-1570700258112-e259d3dbafb4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80"
+             style="width:100%" alt="">
+    </div>
+
+    <div class="mySlides">
+        <img class="slideshow-image"
+             src="https://images.unsplash.com/photo-1519914979298-54797f766489?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80"
+             style="width:100%" alt="">
+    </div>
+
+    <div class="mySlides">
+        <img class="slideshow-image"
+             src="https://images.unsplash.com/photo-1448907503123-67254d59ca4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2938&q=80"
+             style="width:100%" alt="">
+    </div>
+</div>
+
+
+<!--Welkomst tekst op pagina-->
+
+<section id="welcome">
+    <h3 id="welcome-header">Welcome to the Clueless Cook!</h3>
+    <p class="header-text">Do you ever struggle to figure out what to cook? We do!<br/>
+        This website gives you the solution.<br/><br/>
+
+        Below you can find some options to search for recipes by cuisine, cooking time or by the ingredients you still
+        have.<br/><br/></p>
+
+<!--    <p><a href="./fridge.html">Hello</a></p>-->
+
+    <h2>Let's get cooking!</h2>
+
+</section>
+
+
+<!--Latest recipe gedeelte-->
+<section class="search-by"><br/><br/><br/>
+    <p class="latest-recipes-text">Search by...</p>
+
+
+    <div id="latest-recipes">
+        <div class="recipe-box">
+<!--            <a href="./fridge.html">-->
+                <h2 class="text-box-search-h">What's in your fridge?</h2>
+                <p class="text-box-search">Click the image to find options by the ingredients you still have!</p>
+
+                <img id="link1" alt="" src="https://i.pinimg.com/564x/ab/07/13/ab07134effcbc29ad7e0a7c5d7ebf9e9.jpg">
+<!--            </a>-->
+        </div>
+
+        <div class="recipe-box">
+            <h2 class="text-box-search-h">Cooking Time</h2>
+            <p class="text-box-search">Click the image to find options by cooking time!</p>
+
+            <a href="">
+                <img id="link2" alt="" src="https://i.pinimg.com/564x/22/56/ab/2256ab54f58fa9e585c43f1e689267c6.jpg">
+            </a>
+        </div>
+
+        <div class="recipe-box">
+            <h2 class="text-box-search-h">Cuisine</h2>
+            <p class="text-box-search">Click the image to find options by cuisine!</p>
+
+            <img id="link3" alt="" src="https://i.pinimg.com/564x/9b/4d/90/9b4d904f7ba363fcf3979b4190338a74.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!--Get Random Recipe Inspiration-->
+<div class="random-box">
+
+    <div id="random-recipe">
+        <ul>
+            <li id="random"></li>
+        </ul>
+    </div>
+
+</div>
+
+
+<!--Footer / Contact gedeelte van de pagina-->
+
+<div id="footer-contact"><br/><br/>
+    <h1 class="footer-text">Contact Us</h1>
+
+    <form action="">
+        <label for="form-name">Name</label><br/>
+        <input type="text" id="form-name" name="name"><br/><br/>
+
+        <label for="form-email">Email</label><br/>
+        <input type="email" id="form-email" name="email"><br/><br/>
+
+        <label for="form-message">Message</label><br/>
+        <textarea id="form-message" name="message"></textarea><br/><br/>
+
+        <input type="submit" id="form-button" value="Send message">
+    </form>
+    <br/><br/>
+</div>
+
+
+<script src="../JS/Home-Main.js" type="module"></script>
+</body>
+</html>

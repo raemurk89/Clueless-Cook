@@ -1,0 +1,1 @@
+{"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["src/CSS/Cooking-Videos.css"],"sourcesContent":["* {\n    box-sizing: border-box;\n    margin: 0;\n    padding: 0;\n}\n\nbody {\n    background-color: #cadecb;\n}"],"names":[],"version":3,"file":"Cooking-Videos.d50c4830.css.map","sourceRoot":"/__parcel_source_root/"}
